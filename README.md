@@ -13,3 +13,10 @@ cd ats_resume
 Create a Django App:
 
 python manage.py startapp users
+
+Add the App to INSTALLED_APPS in settings.py:
+
+INSTALLED_APPS = [
+    ...
+    'users',
+]
